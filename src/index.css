@@ -1,0 +1,234 @@
+body{
+  background-color: rgb(236, 250, 250);
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .p-4{
+  padding-top: 2rem;
+} */
+.bgH{
+color: white !important;
+text-decoration: none !important;
+}
+
+.btnAgregar{
+  text-decoration: none;
+  font-weight: 600;
+  font-size:20px;
+  color:azure;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color: #005BBB;
+  border: 2px solid #171917;
+  
+}
+
+.btnAgregar:hover{
+  background-color: white;
+  color: black;
+}
+.bg{
+  background-color: rgb(53, 53, 52);
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 780px){
+  .contenedor-flex{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 420px){
+  .btnAgregar, .bgH{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: column;
+}
+.card-body{
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+.card{
+  /* position: relative; */
+  /* display: flex; */
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgb(233, 250, 250);
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+  
+}
+.text-center{
+  text-align: center;
+}
+.card-title{
+  margin-bottom: .5rem;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+.form-group{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.form-label{
+  margin-bottom: .5rem;
+}
+label{
+  display: inline-block;
+  padding: 1rem 0;
+}
+.justify-content-center{
+  text-align: center;
+}
+.mb,.mt{
+  margin-top: 2.5rem;
+}
+.btn-primary{
+  color:#fff;
+  background-color: #0d6efd;
+  border-color:#0d6efd;
+}
+.btn{
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  padding: .375rem .75rem;
+  font-size:1rem;
+  border-radius: .25rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.font-weight-bol{
+  font-weight: bold;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.table-success{
+--bs-table-bg: #d1e7dd;
+--bs-table-striped-bg: #c7dbd2;
+--bs-table-striped-color: #000;
+--bs-table-active-bg: #bcd0c7;
+--bs-table-active-color: #000;
+--bs-table-hover-bg: #c1d6cc;
+--bs-table-hover-color: #000;
+color: #000;
+border-color: #bcd0c7;
+}
+table{
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+.table{
+  width: 100%;
+}
+.alert-danger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  border-radius: .25rem;
+}
+
+img{
+  max-width: 100%;
+ 
+}
+
+@media screen and (min-width:768px){
+  .barra .contenedor{
+      flex-direction: row;
+      justify-content: space-between;
+  }
+}
+/* contenido */
+@media screen and (min-width:520px){
+   .contenido-principal{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .entrada{
+      flex: 0 1 calc( 50% - 1rem);/*0 para que no cresca, 1 para shring y despues la base (flex: grow, flex:shring, flex: basis)*/
+  }
+}
+@media screen and (min-width:768px){
+  .entrada{
+      flex: 0 1 calc( 33% - 1rem);
+  }
+}
+
+.entrada{
+  margin-bottom: 1rem;
+}
+.contenido{
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.flex-btn-acciones{
+  display: flex;
+  flex-direction: column;
+}
+.btn-edit{
+  color:#fff;
+  background-color: #07b754;
+  border-color:#07b754;
+}
+.btn-delete{
+  color:#fff;
+  background-color: #fd0d0d;
+  border-color:#fd0d0d;
+  border: none;
+}
+.flex-btn-acciones >*{
+  margin-top: 5px;
+}

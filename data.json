@@ -1,0 +1,46 @@
+{
+  "mascotas": [
+    {
+      "id": 1,
+      "nombre": "Michifu x2",
+      "descripcion": "Gato amarillo, con anteojos2x",
+      "foto": "https://media.istockphoto.com/photos/white-british-cat-are-wear-sunglass-and-shirt-isolated-on-the-yellow-picture-id1316683775?k=20&m=1316683775&s=612x612&w=0&h=y5EHdURJ-rVlzMaN5KvWbMrMV-OGSCIC2gXvUJO3csQ="
+    },
+    {
+      "id": 2,
+      "nombre": "Dark",
+      "descripcion": "Gato Gris",
+      "foto": "https://cdn.pixabay.com/photo/2020/02/23/11/00/british-longhair-cat-4872997_1280.jpg"
+    },
+    {
+      "nombre": "Sami2",
+      "descripcion": "Perro de Razas",
+      "foto": "https://cdn.pixabay.com/photo/2017/09/25/13/14/dog-2785077_1280.jpg",
+      "id": 3
+    },
+    {
+      "nombre": "Karim",
+      "descripcion": "Gato Amarillo con blanco",
+      "foto": "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_1280.jpg",
+      "id": 4
+    },
+    {
+      "nombre": "Darkness",
+      "descripcion": "Gato negro, con ojos azules",
+      "foto": "https://cdn.pixabay.com/photo/2018/01/25/16/07/cute-3106473_1280.jpg",
+      "id": 5
+    },
+    {
+      "nombre": "Simon",
+      "descripcion": "Gato negro, con ojos azules",
+      "foto": "https://cdn.pixabay.com/photo/2016/10/09/21/03/dog-1726931__480.jpg",
+      "id": 6
+    },
+    {
+      "nombre": "Perrix2",
+      "descripcion": "Perro color amarillox4",
+      "foto": "https://media.istockphoto.com/photos/friends-red-cat-and-corgi-dog-walking-in-a-summer-meadow-under-the-picture-id1324099927?k=20&m=1324099927&s=612x612&w=0&h=fOqMXWIQkmrvrEUbIWJak6Ht-FJjmJdDgs4cKnbNuA0=",
+      "id": 7
+    }
+  ]
+}
